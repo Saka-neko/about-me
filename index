@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+  <title>KUJIRA CAFEへようこそ</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="home">
+    <div class="wrapper">
+      <!-- ヘッダー -->
+    <header class="header">
+    <h1 class="mylogo"><a href="index.html"><img src="images/mylogo.png" alt="My favorite things"></a></h1>
+  
+       </header>
+      <!-- ヘッダーここまで -->
+      <!-- メイン -->
+ <div class="evolution">
+ <ul>
+ 	<li> <a href="childhood.html"><img src="images/childhood.png" onmouseover="this.src='images/childhood2.png'" 
+	onmouseout="this.src='images/childhood.png'"></a></li>
+	<li> <a href="primary-school.html"><img src="images/primary-school.png" onmouseover="this.src='images/primary-school2.png'" 
+	onmouseout="this.src='images/primary-school.png'"></a></li>
+	<li> <a href="junior-high-school.html"><img src="images/junior-high-school.png" onmouseover="this.src='images/junior-high-school2.png'" 
+	onmouseout="this.src='images/junior-high-school.png'"></a></li>
+	<li> <a href="high-school.html"><img src="images/high-school.png" onmouseover="this.src='images/high-school2.png'" 
+	onmouseout="this.src='images/high-school.png'"></a></li>
+	<li> <a href="university-student.html"><img src="images/university-student.png" onmouseover="this.src='images/university-student2.png'" 
+	onmouseout="this.src='images/university-student.png'"></a></li>
+	</div>
+    <main>
+     <nav class="nava">
+      <ul>
+        <li><a href="childhood.html">幼少期</a></li>
+        <li><a href="primary-school.html">小学生</a></li>
+        <li><a href="junior-high-school.html">中学生</a></li>
+        <li><a href="high-school.html">高校生</a></li>
+        <li><a href="university-student.html">大学生</a></li>
+      </ul>
+    </nav>
+    </main>
+      <!-- メインここまで -->
+      <!-- フッター -->
+    <footer class="indexfooter">
+    <p>&copy;Copyright Sakaguchi Kosuke. All rights reserved.</p>
+    </footer>
+      <!-- フッターここまで -->
+    </div>
+  </body>
+</html>
